@@ -10,7 +10,8 @@ interface ImportMetaEnv {
     readonly VITE_FIREBASE_APP_ID: string;
     readonly VITE_FIREBASE_MEASUREMENT_ID: string;
   }
-  
+
+  // eslint-disable-next-line no-unused-vars
   interface ImportMeta {
     readonly env: ImportMetaEnv
   }
