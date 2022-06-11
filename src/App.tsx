@@ -1,5 +1,5 @@
-import { AppBar, Toolbar, IconButton, Typography, Button } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
+import { AppBar, Toolbar, IconButton, Typography, Button } from '@mui/material'
 import { initializeApp } from 'firebase/app'
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
 
